@@ -1,0 +1,18 @@
+<form [formGroup]="addQuestionForm" (ngSubmit)="addQues()" class="p-4">
+    <p>add question</p>
+    <input formControlName="quesName" type="text" placeholder="question name">
+    <br><hr><br>
+    <p>add Answer 1</p>
+    <input formControlName="ansOne" type="text" placeholder="Answer option 1">
+    <p>add Answer 2</p>
+    <input formControlName="ansTwo" type="text" placeholder="Answer option 2">
+    <p>add Answer 3</p>
+    <input formControlName="ansThree" type="text" placeholder="Answer option 3">
+    <p>add Answer 4</p>
+    <input formControlName="ansFour" type="text" placeholder="Answer option 4">
+    <br><hr><br>
+    <p>Which one is corrent answer</p>
+    <input formControlName="ansCorrect" type="text" placeholder="write correct answer">
+    <br><br>
+    <p> <input class="btn btn-primary" type="submit" value="submit queston"> </p>
+</form>
